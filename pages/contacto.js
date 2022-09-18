@@ -1,8 +1,6 @@
 function contacto (ele) {
     const busquedaEle = document.querySelector(".pagina__contacto");
     busquedaEle.innerHTML = `
-    
-    <h1 class="pagina__contacto__titulo__principal">Escribime</h1>
     <form class="pagina__contacto__formulario">
       <br />
       <br />

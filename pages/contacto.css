@@ -1,3 +1,7 @@
+.contacto__cuerpo{
+  background-color: black;
+}
+
 .pagina__contacto {
   height: 660px;
   background-color: black;
@@ -12,6 +16,7 @@
   text-align: center;
   letter-spacing: -2px;
   color: #fafafa;
+  background-color: black;
 }
 
 .pagina__contacto__formulario {
