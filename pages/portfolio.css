@@ -1,0 +1,125 @@
+@media (max-width: 900px) {
+  .pagina__portfolio {
+    height: 538px;
+    background-color: black;
+  }
+
+  .pagina__portfolio__titulo {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .pagina__portfolio__porfolio {
+    position: absolute;
+    width: 312px;
+    height: 193px;
+    left: 31px;
+    top: 756px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+  }
+
+  /* Este es el CSS para la pagina movil individual */
+
+  .pagina__portfolio__individual {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0px;
+    height: 100%;
+  }
+
+  .pagina__portfolio__individual__titulo {
+    margin: 15px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #ffffff;
+  }
+
+  .pagina__portfolio__individual__contenido {
+    background-color: black;
+  }
+
+  .pagina__mis__portfolios__imagen {
+    width: 50%;
+    align-self: center;
+  }
+
+  .pagina__mis__portfolios__titulo__secundario {
+    color: white;
+  }
+  .pagina__mis__portfolios__parrafo {
+    color: white;
+  }
+  .pagina__portfolio__individual__data {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 20px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+  .pagina__mis__servicios__bloque__mis__portfolios {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+  }
+
+  .pagina__mis__portfolios__imagen {
+    width: 100%;
+  }
+  .pagina__mis__portfolios__titulo__secundario {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    /* casi-blanco */
+
+    color: #dbdbdb;
+  }
+
+  .pagina__mis__portfolios__parrafo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    /* casi-blanco */
+
+    color: #dbdbdb;
+  }
+
+  .pagina__mis__portfolios__url {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    /* negativo */
+
+    color: #fc6f50;
+  }
+}

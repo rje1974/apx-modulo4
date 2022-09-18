@@ -1,0 +1,42 @@
+.pagina__final {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #2C2C2C;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.footer__todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.marce-principal {
+
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.redessociales-conjunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redessociales-individual {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
