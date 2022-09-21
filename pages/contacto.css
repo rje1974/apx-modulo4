@@ -1,69 +1,167 @@
-.contacto__cuerpo{
-  background-color: black;
+/* Celulares */
+
+@media (max-width: 900px) {
+  .contacto__cuerpo {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+  }
+
+  .pagina__contacto__titulo__principal {
+    margin: 30px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #ffffff;
+    background-color: black;
+  }
+
+  .pagina__contacto {
+    height: 660px;
+    background-color: black;
+  }
+
+  .pagina__contacto__formulario {
+    margin: 20px;
+  }
+
+  .pagina__contacto__formulario__campo__input__nombre {
+    width: 100%;
+    height: 45px;
+    left: 20px;
+    background: #ffffff;
+  }
+
+  .pagina__contacto__formulario__campo__input__email {
+    width: 100%;
+    height: 45px;
+    left: 20px;
+    background: #ffffff;
+  }
+
+  .pagina__contacto__formulario__campo__input__mensaje {
+    width: 100%;
+    height: 113px;
+    left: 20px;
+    background: #ffffff;
+  }
+
+  .pagina__contacto__formulario__campo__titulos {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fafafa;
+  }
+
+  .pagina__contacto__formulario__campo__button {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #dbdbdb;
+    width: 100%;
+    height: 45px;
+
+    background: #2c2c2c;
+    border-radius: 4px;
+  }
 }
 
-.pagina__contacto {
-  height: 660px;
-  background-color: black;
-}
+/* Escritorio */
 
-.pagina__contacto__titulo__principal {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-  letter-spacing: -2px;
-  color: #fafafa;
-  background-color: black;
-}
+@media (min-width: 900px) {
 
-.pagina__contacto__formulario {
-  margin: 20px;
-}
+  .contacto__cuerpo {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+  }
 
-.pagina__contacto__formulario__campo__input__nombre {
-  width:100%;
-  height: 45px;
-  left: 20px;
-  background: #ffffff;
-}
+  .pagina__contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 660px;
+  }
 
-.pagina__contacto__formulario__campo__input__email {
-  width:100%;
-  height: 45px;
-  left: 20px;
-  background: #ffffff;
-}
+  .pagina__contacto__titulo__principal {
+    width: 40%;
+    margin: 60px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #ffffff;
+  }
 
-.pagina__contacto__formulario__campo__input__mensaje {
-  width:100%;
-  height: 113px;
-  left: 20px;
-  background: #ffffff;
-}
 
-.pagina__contacto__formulario__campo__titulos {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 20px;
-  color: #fafafa;
-}
+  .pagina__contacto__formulario {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin: 20px;
+    text-align: left;
+    align-self: flex-start;
+  }
 
-.pagina__contacto__formulario__campo__button {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #dbdbdb;
-  width: 100%;
-  height: 45px;
+  .pagina__contacto__formulario__campo__input__nombre {
+    width: 80%;
+    height: 45px;
+    left: 20px;
+    background: #ffffff;
+  }
 
-  background: #2c2c2c;
-  border-radius: 4px;
+  .pagina__contacto__formulario__campo__input__email {
+    width: 80%;
+    height: 45px;
+    left: 20px;
+    background: #ffffff;
+  }
+
+  .pagina__contacto__formulario__campo__input__mensaje {
+    width: 80%;
+    height: 113px;
+    left: 20px;
+    background: #ffffff;
+  }
+
+  .pagina__contacto__formulario__campo__titulos {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fafafa;
+  }
+
+  .pagina__contacto__formulario__campo__button {
+    width: 80%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #dbdbdb;
+    height: 45px;
+    background: #2c2c2c;
+    border-radius: 4px;
+  }
 }

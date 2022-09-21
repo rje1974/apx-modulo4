@@ -1,28 +1,35 @@
-.pagina__principal__cabecera {
+/* Celulares */
+
+@media (max-width: 900px) {
+  .pagina__principal__cabecera {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+  }
+  .cabecera__marce{
 
+    margin-top: 20px;
+  }
 
-.cabecera__marce__texto {
-    margin-left: 18px;
-    font-family: 'Orbitron';
+  .cabecera__marce__texto {
+    margin-left: 30px;
+    font-family: "Orbitron";
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 48px;
     letter-spacing: -1px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+    text-decoration: none;
+  }
 
-.cabecera__ventana{
-    display:block;
-}
+  .cabecera__ventana {
+    display: block;
+  }
 
-.cabecera__ventana__cerrada__icono {
-    display:block;
+  .cabecera__ventana__cerrada__icono {
+    display: block;
     margin-right: 30px;
     margin-top: 30px;
     height: 40px;
@@ -31,26 +38,26 @@
     right: 0px;
     left: 0px;
     bottom: 0px;
-}
+  }
 
-.cabecera__ventana__abierta__ventana {
-    display:none;
+  .cabecera__ventana__abierta__ventana {
+    display: none;
     position: absolute;
     width: 100%;
     height: 667px;
     left: 0px;
     top: 0px;
     background: #161616;
-}
+  }
 
-.cabecera__ventana__abierta__div__icono {
+  .cabecera__ventana__abierta__div__icono {
     display: none;
     flex-direction: row-reverse;
     width: 100%;
-}
+  }
 
-.cabecera__ventana__abierta__icono {
-    display:none;
+  .cabecera__ventana__abierta__icono {
+    display: none;
     margin-right: 30px;
     margin-top: 30px;
     height: 40px;
@@ -59,29 +66,117 @@
     right: 0px;
     left: 0px;
     bottom: 0px;
-}
+  }
 
-.cabecera__ventana__abierta__parrafo {
+  .cabecera__ventana__abierta__parrafo {
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 60%;
+  }
 
-
-}
-
-
-.cabecera__ventana__abierta__texto {
-    font-family: 'Montserrat';
+  .cabecera__ventana__abierta__texto {
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
-    /* identical to box height, or 100% */
-    
+    text-decoration: none;
     text-align: center;
     letter-spacing: -1px;
-    
-    color: #FFFFFF;
+    color: #ffffff;
+  }
+}
+
+/* Escritorio */
+
+@media (min-width: 900px) {
+  .pagina__principal__cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 86px;
+    margin-top: 52px;
+    margin-left: 80px;
+  }
+
+  .cabecera__marce__texto {
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+  }
+
+  .cabecera__ventana {
+    display: block;
+  }
+
+  .cabecera__ventana__cerrada__icono {
+    display: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+  }
+  
+  .cabecera__ventana__abierta__ventana {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    margin-right: 80px;
+  }
+
+  .cabecera__ventana__abierta__div__icono {
+    display: none;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .cabecera__ventana__abierta__icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    margin-top: 30px;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .cabecera__ventana__abierta__parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+  }
+
+  .cabecera__ventana__abierta__texto {
+    margin: 20px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #ffffff;
+  }
 }

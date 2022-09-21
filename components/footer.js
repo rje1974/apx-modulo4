@@ -3,26 +3,30 @@ function footer (ele) {
     busquedaEle.innerHTML = 
     `
     <div class="footer__todo">
-      <h1 class="marce-principal">JUAN</h1>
+      <a class="marce-principal" href="./index.html">JUAN</a>
       <div class="redessociales-conjunto">
-        <img
+        <a 
           class="redessociales-individual"
-          src="./pages/assets/Group 13.svg"
-          alt="instagram"
-        />
-        <img
+          target="_blank" 
+          href="https://www.instagram.com/rje1974/">
+          <img src="./pages/assets/Group 13.svg" alt="instagram" />
+        </a>
+        <a 
           class="redessociales-individual"
-          src="./pages/assets/Group 11.svg"
-          alt="linkedin"
-        />
-        <img
+          target="_blank" 
+          href="https://www.linkedin.com/in/juan-eduardo-riva/">
+          <img src="./pages/assets/Group 11.svg" alt="linkedin" />
+        </a>
+
+        <a 
           class="redessociales-individual"
-          src="./pages/assets/Group 10.svg"
-          alt="github"
-        />
+          target="_blank" 
+          href="https://github.com/rje1974">
+          <img src="./pages/assets/Group 10.svg" alt="github" />
+        </a>
+
       </div>
     </div>
     `
 }
-
 footer()

@@ -1,7 +1,13 @@
+/* Celulares */
+
 @media (max-width: 900px) {
   .pagina__portfolio {
     height: 538px;
     background-color: black;
+  }
+
+  .pagina__portfolio__imagen {
+    display: none;
   }
 
   .pagina__portfolio__titulo {
@@ -55,7 +61,7 @@
   }
 
   .pagina__mis__portfolios__imagen {
-    width: 50%;
+    width: 10%;
     align-self: center;
   }
 
@@ -79,6 +85,164 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: black;
+  }
+
+  .pagina__mis__portfolios__imagen {
+    width: 100%;
+  }
+  .pagina__mis__portfolios__titulo__secundario {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    /* casi-blanco */
+
+    color: #dbdbdb;
+  }
+
+  .pagina__mis__portfolios__parrafo {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    /* casi-blanco */
+
+    color: #dbdbdb;
+  }
+
+  .pagina__mis__portfolios__url {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    /* negativo */
+
+    color: #fc6f50;
+  }
+}
+
+/* Escritorio */
+
+@media (min-width: 900px) { 
+
+  .pagina__portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 538px;
+    background-color: white;
+  }
+  
+  .pagina__portfolio__cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .pagina__portfolio__cabecera__columna__primera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .pagina__portfolio__imagen {
+    width: 85%;
+  }
+  
+  .pagina__portfolio__cabecera__columna__segunda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .pagina__portfolio__titulo {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: black;
+  }
+  
+  .pagina__portfolio__porfolio {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  
+  .pagina__portfolio__individual {
+    background: linear-gradient(107.17deg, #958C40 29.35%, rgba(156, 0, 210, 0.8) 78.73%);
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0px;
+    height: 100%;
+  }
+
+  .pagina__portfolio__individual__titulo {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 82px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    height: 554px;
+    margin-top: 140px;
+  }
+
+  .pagina__portfolio__individual__contenido {
+    background-color: black;
+  }
+
+  .pagina__mis__portfolios__imagen {
+    width: 50%;
+    align-self: center;
+  }
+
+  .pagina__mis__portfolios__titulo__secundario {
+    color: white;
+  }
+  
+  .pagina__mis__portfolios__parrafo {
+    color: white;
+  }
+
+  .pagina__portfolio__individual__data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 20px;
+  }
+  .pagina__mis__servicios__bloque__mis__portfolios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 30px;
+    width: 25%;
   }
 
   .pagina__mis__portfolios__imagen {

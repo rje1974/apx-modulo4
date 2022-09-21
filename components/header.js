@@ -5,7 +5,7 @@ function cabecera(ele) {
   `
     
   <div class="cabecera__marce">
-        <h1 class="cabecera__marce__texto">JUAN</h1>
+        <a class="cabecera__marce__texto" href="./index.html">JUAN</a>
   </div>
 
   <div class="cabecera__ventana">

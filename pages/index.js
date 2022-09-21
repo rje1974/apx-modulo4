@@ -23,7 +23,10 @@ function quienSoy () {
 
 }
 
+function main (){
+    datosCompletos()
+    quienSoy()
+}
 
-
-quienSoy()
+main()
 
